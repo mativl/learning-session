@@ -1,0 +1,24 @@
+{
+  "name": "VisaDateNotification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy-dev": "./scripts/upload_package.sh",
+    "fran": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casestackeng/warehouse-data-out.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casestackeng/warehouse-data-out/issues"
+  },
+  "homepage": "https://github.com/casestackeng/warehouse-data-out#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
